@@ -10,7 +10,58 @@
     <script src="https://kit.fontawesome.com/abb7dd614d.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="main">
+      <p id="logo"><i class="fa fa-music"></i>Music</p>
 
+
+  <!-- Left part -->
+<div class="left">
+  <!-- song image -->
+
+  <img id="track_image">
+  <div class="volume">
+
+
+
+  <p id="volume_show">90</p>
+
+  <i class="fa fa-volume-up" id="volume_icon" onclick="mute_sound()"></i>
+  <input type="range" min="0" max="100" value="90" onchange="volume_change()">
+  </div>
+</div>
+
+
+<!-- Right part -->
+<div class="right">
+  <div class="show_song_no">
+    <p id="present">1</p>
+    <p>/</p>
+    <p id="total">5</p>
+  </div>
+
+
+  <!-- Song title -->
+  <p id="title">title.mp3</p>
+  <p id="artist">Artist name</p>
+
+
+  <!-- Middle Section -->
+  <div class="middle">
+    <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward"></i></button>
+    <button onclick="justplay()" id="play"><i class="fa fa-play"></i></button>
+    <button onclick="next_song()" id="next"><i class="fa fa-step-forward"></i></button>
+  </div>
+
+
+  <!-- Song length section -->
+  <div class="duration">
+    <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+  </div>
+  <button id="auto" onclick="autoplay_switch()">Auto Play <i class="fa fa-circle-o-notch"></i></button>
+
+</div>
+
+    </div>
 
 
 
