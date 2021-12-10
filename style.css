@@ -218,3 +218,23 @@ input[type='range']::-webkit-slider-thumb {
 .right .show_song_no p:nth-child(2) {
   margin: 0 5px;
 }
+
+
+
+@media screen and (max-width: 600px) {
+  .right #artist {
+
+    top: 165px;
+    font-size: 15px;
+  }
+
+  .right #title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 31px;
+  }
+}
