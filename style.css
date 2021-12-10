@@ -238,3 +238,21 @@ input[type='range']::-webkit-slider-thumb {
     font-size: 31px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .right #artist {
+
+    top: 147px;
+    font-size: 15px;
+  }
+
+  .right #title {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 31px;
+  }
+}
