@@ -259,7 +259,7 @@ input[type='range']::-webkit-slider-thumb {
 
 @media screen and (max-width: 400px) {
   .right #artist {
-    top: 68px;
+    top: 80px;
     font-size: 11px;
   }
 
@@ -273,7 +273,15 @@ input[type='range']::-webkit-slider-thumb {
     font-size: 14px;
   }
 
-  .right, .left {
+  .right .middle button {
+    border-radius: 40%!important;
+    width: 22%;
+  }
+}
+
+
+
+   /*.right, .left {
     position: relative;
     height: 100%;
     width: 61%;
@@ -307,4 +315,4 @@ input[type='range']::-webkit-slider-thumb {
     height: 2px;
     margin: 3px 21px;
     padding-left: 100px;
-  }
+  } */
