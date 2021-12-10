@@ -259,18 +259,17 @@ input[type='range']::-webkit-slider-thumb {
 
 @media screen and (max-width: 400px) {
   .right #artist {
-
-    top: 168px;
-    font-size: 15px;
+    top: 68px;
+    font-size: 11px;
   }
 
   .right #title {
     position: absolute;
-    top: 80px;
+    top: 41px;
     left: 50%;
     transform: translateX(-50%);
     text-transform: capitalize;
     color: #ffffff;
-    font-size: 31px;
+    font-size: 14px;
   }
 }
